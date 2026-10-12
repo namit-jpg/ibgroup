@@ -1,0 +1,23 @@
+node_modules/
+.env
+data/
+*.sqlite
+*.sqlite-*
+*.sqlite-journal
+
+# secrets / local
+.env
+.env.*
+!.env.example
+.DS_Store
+node_modules/
+.venv/
+.slack-app.json
+.slack/
+.sfdx/
+.convex/
+*.pem
+*.key
+.secrets/
+__pycache__/
+.pytest_cache/

@@ -1,0 +1,22 @@
+{
+  "name": "whatsapp-slack",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Two-way WhatsApp inbox: Sendvise webhooks into Slack, thread replies back to WhatsApp.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/server.js",
+    "dev": "node --watch --disable-warning=ExperimentalWarning src/server.js",
+    "test": "node --disable-warning=ExperimentalWarning --test"
+  },
+  "dependencies": {
+    "@slack/bolt": "^4.4.0",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@slack/cli-hooks": "^2.0.0"
+  }
+}
